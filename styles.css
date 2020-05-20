@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto_regular/Roboto-Regular-webfont.eot');
+    src: url('fonts/roboto_regular/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto_regular/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto_black/Roboto-Black-webfont.eot');
+    src: url('fonts/roboto_black/Roboto-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_black/Roboto-Black-webfont.woff2') format('woff2'),
+         url('fonts/roboto_black/Roboto-Black-webfont.woff') format('woff'),
+         url('fonts/roboto_black/Roboto-Black-webfont.ttf') format('truetype'),
+         url('fonts/roboto_black/Roboto-Black-webfont.svg#robotoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto_light/Roboto-Light-webfont.eot');
+    src: url('fonts/roboto_light/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto_light/Roboto-Light-webfont.woff2') format('woff2'),
+         url('fonts/roboto_light/Roboto-Light-webfont.woff') format('woff'),
+         url('fonts/roboto_light/Roboto-Light-webfont.ttf') format('truetype'),
+         url('fonts/roboto_light/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-end;
+  color: #737373;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+ul li button {
+  background: #4486f9;
+  color : white;
+  font-family: "robotoblack", serif;
+  font-size: 13.5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+ul li button:hover {
+  background-image: linear-gradient(#76a4f2, #4485f5);
+}
+
+.navbar {
+  font-family: "robotoregular", serif;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 8px;
+  padding-right: 5px;
+}
+
+.navbar:hover {
+  text-decoration: underline;
+}
+
+ul li img {
+  padding-top: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 1px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "robotoregular", serif;
+}
+
+button {
+  background: none;
+  color : inherit;
+  font : inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  border : none;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex : 1;
+  justify-content: center;
+  padding-bottom : 45px;
+}
+
+
+#buttons button{
+  color : #5f6368;
+  font-size: 14px;
+  background: #f5f5f5;
+  margin-top : 30px;
+  margin-left : 3px;
+  margin-right : 3px;
+  padding-top: 9px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 9px;
+  border-radius: 6px;
+  border : 1px solid white;
+}
+
+#buttons button:hover {
+  color : #1e1e1e;
+  border : 1px solid #cecece;
+
+}
+
+#input-style {
+  border : 1px solid #cecece;
+  background: white;
+  width: 520px;
+  height: 22px;
+  margin-top: 20px;
+  padding : 10px 10px 10px 15px;
+  border-radius: 25px;
+}
+
+input {
+  border : none;
+  margin-left : 20px;
+  width: 450px;
+}
+
+i {
+  color: grey;
+}
+
+#input-style:hover {
+box-shadow: 0 1px 6px 0 #cecece;
+}
+
+
+footer {
+  background-color: #f2f2f2;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+#footer-bottom, #footer-top {
+  padding: 9px 0 9px 30px;
+  border-top : 1px solid #e4e4e4;
+  color : #6f6f6f;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-top a {
+  margin-right: 40px;
+  font-size: 12px;
+  color : #737373;
+  text-decoration: none;
+}
+
+#footer-top a:hover {
+  margin-right: 40px;
+  font-size: 10px;
+  color : #737373;
+  text-decoration: underline;
+}
+
+.footer-ter {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-ter li {
+  margin-right: 30px;
+}
+
+.footer-ter li:hover {
+  text-decoration: underline;
+}
