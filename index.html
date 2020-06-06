@@ -3,53 +3,48 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <title>Google homepage - Lolo</title>
+    <title>Google</title>
     <script src="https://kit.fontawesome.com/e5b71cac1a.js" crossorigin="anonymous"></script>
 
   </head>
   <body>
-    <header>
-      <ul>
-        <li class="navbar">Gmail</li>
-        <li class="navbar">Images</li>
-        <li><img src="img/squares.png" alt="9 grey squares"</li>
-        <li><button>Connexion</button></li>
-      </ul>
-    </header>
-    <div id="main">
-        <div><img src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/01_09_2018_23_59_52_6130506.jpg?width=920&format=webp" alt="google's logo"></div>
-        <div id="input-style">
-          <i class="fas fa-rocket"></i><input type="text" placeholder="">
+    <div class="container">
+        <div class="navbar">
+            <div class="left-bar">
+                <ul>
+                    <li><a class="nav" href="#">About</a></li> 
+                    <li><a class="nav" href="#">Store</a></li>
+                </ul>
+            </div>
+            <div class="right-bar">
+                <ul>
+                    <li><a class="nav" href="#">Gmail</a></li>
+                    <li><a class="nav" href="#">Images</a></li>
+                    <button class="signin">Sign In</button>
+                </ul>
+            </div>
         </div>
-        <div id="buttons">
-          <button>Recherche Google</button>
-          <button>J'ai de la chance</button>
+
+        <div id="search-bar" class="main-search">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo" class="logo"> 
+            <input class="searchbar" type="text" placeholder="">
+            <button class="search buttons">Google Search</button>
+            <button class="lucky buttons">I'm Feeling Lucky</button>
         </div>
+
+        <footer>
+            <ul class="left-bar">
+            <li><a href="#">Advertising</a></li> 
+            <li><a href="#">Business</a></li> 
+            <li><a href="#">How Search Works</a></li> 
+            </ul>
+            <ul class="right-bar">
+                <li><a href="#">Privacy</a></li> 
+                <li><a href="#">Terms</a></li> 
+                <li><a href="#">Settings</a></li> 
+            </ul>
+        </footer>
     </div>
-    <footer class="footer">
-      <div id="footer-top">
-        France
-          <a href="https://github.com/Lcdevi/google-homepage">
-            coded by Lcdevi
-          </a>
-      </div>
-      <div id="footer-bottom">
-        <ul class="footer-ter">
-          <li>Publicité</li>
-          <li>Entreprise</li>
-          <li>À propos</li>
-          <li>Comment fonctionne la recherche Google ?</li>
-        </ul>
-        <ul class="footer-ter">
-          <li>Info consommateurs</li>
-          <li>Confidentialité</li>
-          <li>Conditions</li>
-          <li>Paramètres</li>
-        </ul>
-      </div>
-    </footer>
-
-
-
-  </body>
+</body>
+  
 </html>
